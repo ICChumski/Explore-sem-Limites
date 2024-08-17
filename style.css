@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+h1{
+    color: #B52184;
+    font-weight: 900;
+    font-size: 2.8rem;
+}
+h3{
+    font-weight: 600;
+    font-size: 1.6rem;
+
+}
+.title-one{
+    align-items: center;
+    margin-top: 312px;
+}
+.primary{
+    display: flex;
+    gap:28px;
+    justify-content: center;
+    background-color:#F9F4FB;
+}
+.second{
+    background: linear-gradient(90deg, rgba(52,49,147,1) 0%, rgba(48,44,99,1) 100%);
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+}
+.thirdy{
+    display: flex;
+    justify-content: center;
+    background-color: #F9F4FB;
+}
+.img-seta{
+    margin-top: 179px;
+}
+.img-astro{
+    margin-bottom: 100px;
+}
+.lua-position{
+    margin: 32px;
+}
+h2{
+    color: #B52184;
+    display: flex;
+    font-weight: 900;
+    font-size: 1.8rem;
+
+}
+.text-container{
+    padding: 0 32px;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 366px;
+    height: 448px;
+    border-radius:24px;
+    margin: 64px 10px;
+}
+p{
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.icon-name {
+    background-image: url(./assets/person.png);
+    background-repeat: no-repeat;
+}
+.icon-email{
+    background-image: url(./assets/at.png);
+    background-repeat: no-repeat;
+}
+input{
+    display: flex;
+    border-radius: 9px;
+    margin-bottom: 24px;
+    width: 512px;
+    padding: 6px;
+    background-color: #F9F4FB;
+}
+#send-name, #send-email{
+    text-indent: 25px;
+}
+
+.container-contact{
+    padding: 95px;
+}
+#send-answer{
+    padding-bottom: 70px;
+}
+footer{
+    background: linear-gradient(90deg, rgba(52,49,147,1) 0%, rgba(48,44,99,1) 100%);
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.rodape-text{
+    color: #ffffff;
+    padding: 16px;
+    text-align: center;
+}
+.button{
+    color: #F9F4FB;
+    width: 151px;
+    height: auto;
+    padding: 12px;
+    background: linear-gradient(90deg, rgba(52,49,147,1) 0%, rgba(48,44,99,1) 100%);
+    cursor: pointer;
+}
+@media screen and (max-width:1361px){
+    .primary{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .second{
+        display: grid;
+        gap: 0;
+    }
+    .img-astro{
+        margin: auto;
+        width: 100%;
+    }
+    .img-seta{
+        margin-left: 90px;
+        margin-top: 80px;
+    }
+    .title-one{
+        margin: auto;
+        align-items: center;
+    }
+    h1{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    h3{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .container{
+        width: 352px;
+        height: auto;
+        margin: 30px;
+    }
+    .text-container{
+        margin-bottom: 25px;
+    }
+    .container-img{
+        display: none;
+    }
+    input{
+        width: 100%;
+    }
+    .container-contact{
+        padding: 20px;
+    }
+    
+}
